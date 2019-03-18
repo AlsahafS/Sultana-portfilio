@@ -7,6 +7,7 @@ Built a fully responsive site using HTML, CSS elements. The site containes 4 sec
 
 ### References
 -Udacity class
+<br />
 -https://www.w3schools.com/css/default.asp
 
 
