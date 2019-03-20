@@ -1,4 +1,3 @@
-
 ### Sultana' portfilio
 Personal page for show my projects
 
@@ -12,4 +11,5 @@ Built a fully responsive site using HTML, CSS elements. The site containes 4 sec
 
 
 **Note:** photos of projects from internet.
+
 
