@@ -7,6 +7,8 @@ body {
 
 .item1 {
     grid-area: header;
+
+
 }
 
 .item2 {
@@ -94,32 +96,34 @@ li a:hover {
 /*Social media style */
 .fa {
     padding: 20px;
-    font-size: 15px;
-    width: 30px;
+    font-size: 10px;
+    width: 10px;
     text-align: center;
+    text-decoration: none;
     margin: 5px 2px;
-}
-
-.fa:hover {
-opacity: 0.7;
-}
-
-.fa-facebook {
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
     background: #3B5998;
     color: white;
-}
+  }
+  
 
-
+/* Twitter */
 .fa-twitter {
     background: #55ACEE;
     color: white;
-}
-
-.fa-linkedin {
+  }   
+  .fa-linkedin {
     background: #007bb5;
     color: white;
-}
-
+  }
+  
 
 /*Item3:Projects Gallery style */
 h2 {
@@ -131,6 +135,11 @@ h2 {
     flex-wrap: wrap;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+  
 div.gallery {
     margin: 25px;
     border: 2px solid #ccc;
@@ -162,13 +171,3 @@ div.pname {
     text-align: center;
     color: #777;
 }
-
-/* on screens that are 400px wide or less, width=100%*/
-
-@media screen and (max-width:400px) {
-    .item2, .item3, .item4 {
-        width:100%;
-     }
- }
-
-
